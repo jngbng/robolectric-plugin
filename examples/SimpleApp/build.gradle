@@ -8,8 +8,8 @@ buildscript {
     	}
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.4.2'
         classpath 'com.novoda.gradle:robolectric-plugin:0.0.1-SNAPSHOT'
+        classpath 'com.android.tools.build:gradle:0.11.+'
     }
 }
 
@@ -35,8 +35,8 @@ dependencies {
 }
 
 android {
-    compileSdkVersion 17
-    buildToolsVersion "17.0.0"
+    compileSdkVersion 19
+    buildToolsVersion "19.1.0"
 
     defaultConfig {
         minSdkVersion 7
