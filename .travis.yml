@@ -11,4 +11,4 @@ env:
       SxFlewPcdtUk2h30299dDNRrZ30o5/5BijYB5kmki1GSwrvxaiTbOwyM29f4
       7t1vL2JrzgS5l/uCpH0GPKwfhr8voEkUs9bURdmwhZ0XIGWFJps=
 
-script: ./gradlew clean test uploadArchives -Pci -PsonatypeUsername=$SONATYPE_USERNAME -PsonatypePassword=$SONATYPE_PASSWORD
+script: ./gradlew clean test #uploadArchives -Pci -PsonatypeUsername=$SONATYPE_USERNAME -PsonatypePassword=$SONATYPE_PASSWORD
