@@ -66,7 +66,7 @@ class RobolectricPlugin implements Plugin<Project> {
         }
 
         // Default Android jar
-        getAndroidPlugin(project).getRuntimeJarList().each {
+        getAndroidPlugin(project).getBootClasspath().each {
             robolectric.compileClasspath += project.files(it)
             robolectric.runtimeClasspath += project.files(it)
         }
